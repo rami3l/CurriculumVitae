@@ -12,20 +12,22 @@
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
-{
+\noindent\begin{minipage}{0.3\textwidth}
+  % adapt widths of minipages to your needs
   % change Large font here
   \Large{
-    \begin{tabu}{ c l r }
-      \multirow{5}{1in}{\includegraphics[width=0.88in]{avatar}}
-       & \scshape{Gen LI}                                      \\
-      % & {Python~}\progressbar{0.75}
-       & \email{rami3l@foxmail.com}                            \\
-       & \phone{+33 (0)7 49 99 05 67}                          \\
-      % & \linkedin[billryan8]{https://www.linkedin.com/in/billryan8} \\
-       & \github[github.com/rami3l]{https://github.com/rami3l}
-    \end{tabu}
+    \textbf{Gen LI}\\
+    % & {Python~}\progressbar{0.75}
+    \email{rami3l@foxmail.com}   \\
+    \phone{+33 (0)7 49 99 05 67} \\
+    % & \linkedin[billryan8]{https://www.linkedin.com/in/billryan8} \\
+    \github[github.com/rami3l]{https://github.com/rami3l}
   }
-}
+\end{minipage}
+\hfill%
+\begin{minipage}{0.6\textwidth}\raggedleft
+  \includegraphics[width=0.88in]{avatar}
+\end{minipage}
 
 \section{Formation}
 \datedsubsection{\textbf{École Centrale de Nantes (ECN)} Nantes, France}{Depuis Sept. 2020}
