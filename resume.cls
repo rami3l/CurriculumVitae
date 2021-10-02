@@ -91,6 +91,12 @@
 % defines one's info
 % usage: \info{<info>}
 \newcommand{\info}[1]{\faIcon{info-circle}\ {#1}}
+% defines one's address
+% usage: \address{<address>}
+\newcommand{\address}[1]{\faIcon{envelope}\ {#1}}
+% defines one's city
+% usage: \city{<city>}
+\newcommand{\city}[1]{\faIcon{city}\ {#1}}
 % defines one's linkedin
 % usage: \linkedin{<linkedin>}
 \newcommand{\linkedin}[2][]{\faIcon{linkedin}\ 
