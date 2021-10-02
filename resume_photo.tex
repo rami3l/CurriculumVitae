@@ -12,17 +12,16 @@
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
-\noindent\begin{minipage}{0.3\textwidth}
+\noindent\begin{minipage}{0.375\textwidth}
   % adapt widths of minipages to your needs
   % change Large font here
-  \Large{
-    \textbf{Gen LI}\\
-    % & {Python~}\progressbar{0.75}
-    \email{rami3l@foxmail.com}   \\
-    \phone{+33 (0)7 49 99 05 67} \\
-    % & \linkedin[billryan8]{https://www.linkedin.com/in/billryan8} \\
-    \github[github.com/rami3l]{https://github.com/rami3l}
-  }
+  {\Large \textbf{Gen LI}} \\
+  % & {Python~}\progressbar{0.75}
+  \email{rami3l@foxmail.com}   \\
+  \phone{+33 (0)7 49 99 05 67} \\
+  % & \linkedin[billryan8]{https://www.linkedin.com/in/billryan8} \\
+  \github[github.com/rami3l]{https://github.com/rami3l} \\
+  \info{Né en février 1999}
 \end{minipage}
 \hfill%
 \begin{minipage}{0.6\textwidth}\raggedleft
@@ -30,51 +29,45 @@
 \end{minipage}
 
 \section{Formation}
-\datedsubsection{\textbf{École Centrale de Nantes (ECN)} Nantes, France}{Depuis Sept. 2020}
+\datedsubsection{\textbf{École Centrale de Nantes (ECN)} {\small Nantes, France}}{Depuis Sept. 2020}
 \textit{Cycle Ingénieur} (Informatique) : Programme double diplôme avec Centrale Pékin
 
-\datedsubsection{\textbf{Université de Beihang (BUAA) - École Centrale Pékin} Pékin, Chine}{Sept. 2017 - Juin 2020}
+\datedsubsection{\textbf{Université de Beihang (BUAA) - École Centrale Pékin} {\small Pékin, Chine}}{Sept. 2017 - Juin 2020}
 2ème \& 3ème année : Étude des sciences en français (GPA : 3.6647)
 \begin{itemize}
   \item Mathématiques, Physique, Science Industrielle, Programmation, …
 \end{itemize}
 1ère année : Étude intensive de la langue française (générale \& scientifique)
 
+\datedsubsection{\textbf{Lycée Nankai de Chongqing} {\small Chongqing, Chine}}{Sept. 2014 - Juin 2017}
+Gaokao (Bac équivalent) : Mention Très Bien (654/750 points)
 
-\section{Expérience Professionnelle}
+
+\section{Experience Professionnelle}
 \datedsubsection{\textbf{BUAA} - \href{https://github.com/BUAA-SE-Compiling/rurikawa}{\textit{Rurikawa} : Évaluation des Travaux Pratiques Informatiques}}{Depuis Juin 2020}
 \role{Rust, Docker (via Bollard)}{Projet en équipe}
 Système de style \textit{Online Judge} automatisant l'évaluation des TP informatiques
 \begin{itemize}
   \item Conception \& réalisation du sous-système d'exécution de code
-  \item Contribution à la bibliothèque en amont (\textit{Bollard}, binding de Docker API en Rust)
+  \item Contribution à la bibliothèque en amont (\textit{Bollard}, binding de Docker daemon API en Rust)
 \end{itemize}
 
-\datedsubsection{\textbf{Projet Personel} - \href{https://github.com/rami3l/pacaptr}{\textit{Pacaptr} : Outil Multiplateforme de Gestion de Paquets}}{Depuis Juin 2020}
+\datedsubsection{\textbf{Projet Personel} - \href{https://github.com/rami3l/pacaptr}{\textit{Pacaptr} : Outil Multiplateforme de Gestion de Paquets}}{Depuis Mars 2020}
 \role{Rust, Clap (bibliothèque Rust d'analyse d'arguments CLI)}{}
-Emballage des gestionnaires de paquets dans la syntaxe de \textit{pacman} de \textit{Arch Linux}
+Emballage des gestionnaires de paquets utilisant la syntaxe de \textit{pacman} de \textit{Arch Linux}
 \begin{itemize}
   \item Analyse des besoins, réalisation du projet, maintenance continue \& marketing
   \item Utilisation de CI/CD pour la détection des régressions et la distribution des paquets
-  \item Contribution à la bibliothèque en amont (\textit{Clap})
+  \item Contribution à la bibliothèque en amont (\textit{Clap}) \& participation dans les changements API
 \end{itemize}
 
-\datedsubsection{\textbf{xxx Projects}}{Jan. 2015 -- Present}
-\role{C, Python, Django, Linux}{Individual Projects, collaborated with xxx}
-Brief introduction: xxx
+\datedsubsection{\textbf{Projet Personel} - \href{https://github.com/rami3l/yascm}{\textit{Yascm} : Interpréteur simple du langage \textit{Scheme}}}{Depuis Févr. 2020}
+\role{Scheme, Haskell, Scala}{}
+Solution à l'un des projets de \textit{SICP} (\textit{Structure and Interpretation of Computer Programs})
 \begin{itemize}
-  \item Implemented xxx feature
-  \item Optimized xxx 5\%
-  \item xxx
-\end{itemize}
-
-\datedsubsection{\textbf{\LaTeX\ résumé template}}{May. 2015 -- Present}
-\role{\LaTeX, Maintainer}{Individual Projects}
-An elegant \LaTeX\ résumé template, https://github.com/billryan/resume
-\begin{itemize}
-  \item Easy to be further customized or extended
-  \item Full support for unicode characters (e.g. CJK) with \XeLaTeX\
-  \item FontAwesome 4.5.0 support
+  \item Étude de la programmation fonctionnelle et la théorie des langages
+  \item Implémentation basé sur l'interpréteur métacirculaire du livre
+  \item Projet réalisé d'abord en Haskell et ensuite en Scala
 \end{itemize}
 
 % Reference Test
@@ -84,12 +77,13 @@ An elegant \LaTeX\ résumé template, https://github.com/billryan/resume
 %  \item main contribution
 %\end{itemize}
 
-% \section{\faCogs\ Skills}
-% \begin{itemize}[parsep=0.5ex]
-%   \item Programming Languages: C == Python > C++ > Java
-%   \item Platform: Linux
-%   \item Development: Web, xxx
-% \end{itemize}
+\section{Competences Linguistiques et Informatiques}
+\begin{itemize}[parsep=0.5ex]
+  \item Anglais : Courant - CET 6
+  \item Français : Courant - DELF B2
+  \item Mandarin : Langue Maternelle
+  \item Informatique : Rust, Python, Java
+\end{itemize}
 
 % \section{\faHeartO\ Honors and Awards}
 % \datedline{\textit{\nth{1} Prize}, Award on xxx }{Jun. 2013}
