@@ -13,21 +13,31 @@
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
-\noindent\begin{minipage}{0.375\textwidth}
-  % adapt widths of minipages to your needs
-  % change Large font here
-  {\Large \textbf{Gen LI}} \\
-  % & {Python~}\progressbar{0.75}
-  \email{rami3l@foxmail.com}   \\
-  \phone{+33 (0)7 49 99 05 67} \\
-  % & \linkedin[billryan8]{https://www.linkedin.com/in/billryan8} \\
-  \github[github.com/rami3l]{https://github.com/rami3l} \\
-  \info{Né en février 1999}
-\end{minipage}
-\hfill%
-\begin{minipage}{0.6\textwidth}\raggedleft
-  \includegraphics[width=0.88in]{avatar}
-\end{minipage}
+\begin{tabular*}{\textwidth}{l c @{\extracolsep{\fill}} r}
+  \begin{minipage}{0.225\textwidth}
+    % adapt widths of minipages to your needs
+    % change Large font here
+    {\Large \textbf{Gen LI}} \\
+    % & {Python~}\progressbar{0.75}
+    \email{rami3l@foxmail.com}   \\
+    \phone{+33 (0)7 49 99 05 67} \\
+    % & \linkedin[billryan8]{https://www.linkedin.com/in/billryan8} \\
+    \github[github.com/rami3l]{https://github.com/rami3l} \\
+    \info{Né en février 1999}
+  \end{minipage} & {
+      \renewcommand\arraystretch{1.3}
+      \begin{tabular}{c}
+        {\LARGE \textbf{Élève Ingénieur - Centrale Nantes}}      \\
+        {\Large 2\textsuperscript{ème} Année du Cycle Ingénieur} \\
+        {\Large \textbf{Recherche de Stage Ingénieur}}           \\
+        {\Large \textbf{(Avril 2022 - 20 semaines)}}
+      \end{tabular}
+    } &
+  \begin{minipage}{0.88in}
+    \includegraphics[width=0.88in]{avatar}
+  \end{minipage}
+\end{tabular*}
+
 
 \section{Formation}
 \datedsubsection{\textbf{École Centrale de Nantes (ECN)} {\small Nantes, France}}{Depuis Sept. 2020}
@@ -76,7 +86,7 @@ Solution à l'un des projets de \textit{SICP} (\textit{Structure and Interpretat
 
 \section{Compétences linguistiques et informatiques}
 
-\begin{tabular}{ l l }
+\begin{tabular}{l l}
   \textbf{Anglais}      & Courant - CET 6    \\
   \textbf{Français}     & Courant - DELF B2  \\
   \textbf{Mandarin}     & Langue Maternelle  \\
