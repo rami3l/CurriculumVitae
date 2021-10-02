@@ -2,7 +2,8 @@
 
 \documentclass{resume}
 \usepackage{graphicx}
-\usepackage{tabu}
+% \usepackage{tabu}
+\usepackage{booktabs}
 \usepackage{multirow}
 % \usepackage{progressbar}
 \usepackage{hyperref}
@@ -43,7 +44,7 @@
 Gaokao (Bac équivalent) : Mention Très Bien (654/750 points)
 
 
-\section{Experience Professionnelle}
+\section{Expérience professionnelle}
 \datedsubsection{\textbf{BUAA} - \href{https://github.com/BUAA-SE-Compiling/rurikawa}{\textit{Rurikawa} : Évaluation des Travaux Pratiques Informatiques}}{Depuis Juin 2020}
 \role{Rust, Docker (via Bollard)}{Projet en équipe}
 Système de style \textit{Online Judge} automatisant l'évaluation des TP informatiques
@@ -77,24 +78,25 @@ Solution à l'un des projets de \textit{SICP} (\textit{Structure and Interpretat
 %  \item main contribution
 %\end{itemize}
 
-\section{Competences Linguistiques et Informatiques}
-\begin{itemize}[parsep=0.5ex]
-  \item Anglais : Courant - CET 6
-  \item Français : Courant - DELF B2
-  \item Mandarin : Langue Maternelle
-  \item Informatique : Rust, Python, Java
-\end{itemize}
+\section{Compétences linguistiques et informatiques}
+
+\begin{tabular}{ l l }
+  \textbf{Anglais}      & Courant - CET 6    \\
+  \textbf{Français}     & Courant - DELF B2  \\
+  \textbf{Mandarin}     & Langue Maternelle  \\
+  \textbf{Informatique} & Rust, Python, Java
+\end{tabular}
 
 % \section{\faHeartO\ Honors and Awards}
 % \datedline{\textit{\nth{1} Prize}, Award on xxx }{Jun. 2013}
 % \datedline{Other awards}{2015}
 
-\section{Miscellaneous}
-\begin{itemize}[parsep=0.5ex]
-  \item Blog: http://your.blog.me
-  \item GitHub: https://github.com/username
-  \item Languages: English - Fluent, Mandarin - Native speaker
-\end{itemize}
+\section{Centre d’intérêts et activités}
+\begin{tabular*}{\textwidth}{l l @{\extracolsep{\fill}} r}
+  \textbf{Engagement Citoyen} & Vélocampus & Depuis Oct. 2020 \\
+  \textbf{Activité Sociale} & Étude des Systèmes de Métro - Chengdu \& Chongqing & Août 2018 \\
+  \textbf{Loisirs \& Intérêts} & Photographie \& Design
+\end{tabular*}
 
 %% Reference
 %\newpage

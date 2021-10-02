@@ -14,7 +14,7 @@
 \RequirePackage{url}
 \urlstyle{tt}
 % use fontawesome
-\RequirePackage{fontawesome}
+\RequirePackage{fontawesome5}
 % use xcolor for customizing color
 %\RequirePackage[usenames,dvipsnames]{xcolor}
 % loading fonts
@@ -84,32 +84,29 @@
 
 % defines one's email
 % usage: \email{<email>}
-\newcommand{\email}[1]{\faAt\ \href{mailto:#1}{#1}}
+\newcommand{\email}[1]{\faIcon{at}\ \href{mailto:#1}{#1}}
 % defines one's phone
 % usage: \phone{<phone>}
-\newcommand{\phone}[1]{\faPhone\ {#1}}
+\newcommand{\phone}[1]{\faIcon{phone}\ {#1}}
 % defines one's info
 % usage: \info{<info>}
-\newcommand{\info}[1]{\faInfo\ {#1}}
+\newcommand{\info}[1]{\faIcon{info-circle}\ {#1}}
 % defines one's linkedin
 % usage: \linkedin{<linkedin>}
-\newcommand{\linkedin}[2][]{\faLinkedin\ 
+\newcommand{\linkedin}[2][]{\faIcon{linkedin}\ 
   \ifthenelse{\isempty{#1}}%
     {\href{#2}{#2}}
     {\href{#2}{#1}}}
-\newcommand{\linkedinsquare}[2][]{\faLinkedinSquare\ 
-  \ifthenelse{\isempty{#1}}%
-    {\href{#2}{#2}}
-    {\href{#2}{#1}}}
+
 % defines one's GitHub
 % usage: \github{<github>}
-\newcommand{\github}[2][]{\faGithub\ 
+\newcommand{\github}[2][]{\faIcon{github}\ 
   \ifthenelse{\isempty{#1}}%
     {\href{#2}{#2}}
     {\href{#2}{#1}}}
 % defines one's homepage
 % usage: \homepage{<homepage>}
-\newcommand{\homepage}[2][]{\faLink\ 
+\newcommand{\homepage}[2][]{\faIcon{link}\ 
   \ifthenelse{\isempty{#1}}%
     {\href{#2}{#2}}
     {\href{#2}{#1}}}
