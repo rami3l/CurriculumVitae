@@ -84,7 +84,7 @@
 
 % defines one's email
 % usage: \email{<email>}
-\newcommand{\email}[1]{\faIcon{at}\ \href{mailto:#1}{#1}}
+\newcommand{\email}[1]{\faIcon{envelope}\ \href{mailto:#1}{#1}}
 % defines one's phone
 % usage: \phone{<phone>}
 \newcommand{\phone}[1]{\faIcon{phone}\ {#1}}
@@ -93,7 +93,7 @@
 \newcommand{\info}[1]{\faIcon{info-circle}\ {#1}}
 % defines one's address
 % usage: \address{<address>}
-\newcommand{\address}[1]{\faIcon{envelope}\ {#1}}
+\newcommand{\address}[1]{\faIcon{home}\ {#1}}
 % defines one's city
 % usage: \city{<city>}
 \newcommand{\city}[1]{\faIcon{city}\ {#1}}
@@ -118,7 +118,7 @@
     {\href{#2}{#1}}}
 
 \newcommand{\basicInfo}[1]{
-  \centerline{\sffamily\large{#1}}
+  \centerline{\sffamily{#1}}
   \vspace{1.5ex}
 }
 

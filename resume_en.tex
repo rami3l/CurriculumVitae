@@ -1,0 +1,116 @@
+% !TEX program = xelatex
+
+\documentclass{resume}
+\usepackage{graphicx}
+% \usepackage{tabu}
+\usepackage{booktabs}
+\usepackage{multirow}
+% \usepackage{progressbar}
+\usepackage{hyperref}
+% \usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+% \usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l r}
+  \begin{minipage}{4.7in}
+    \Huge\scshape{Gen Li}
+  \end{minipage} &
+  \begin{tabular}{l}
+    {\phone{+33 (0)7 49 99 05 67}}     \\
+    %{\email{rami3l@outlook.com}}   \\
+    \email{gen.li@eleves.ec-nantes.fr} \\
+    {\github{https://github.com/rami3l}}
+  \end{tabular}
+\end{tabular*}
+
+\section{Profile}
+
+Highly motivated engineering student studying \textbf{computer science} at \textbf{École Centrale de Nantes (ECN)} seeking a \textbf{20-week internship} in software development from \textbf{April 2022}.
+
+\section{Education}
+
+\datedsubsection{\textbf{École Centrale de Nantes} {\small Nantes, France}}{Since 2020}
+General engineering training \& specialization in \textbf{computer science} \\
+% Student of ECN, a highly selective French engineering school \\
+Completing 2 years of studies to receive French \& Chinese degrees
+% Specialization: \textbf{Computer Science}
+
+\datedsubsection{\textbf{Beihang University (BUAA) - École Centrale Pékin (ECPk)} {\small Beijing, China}}{2017 - 2020}
+% Student of ECPk, a Sino-French engineering school \\
+Engineering training in the style of French preparatory schools \textbf{(GPA: 3.6647)} \hfill \textit{2nd \& 3rd year} \\
+Intensive study of the French language (general \& scientific) \hfill \textit{1st year}
+
+\section{Professional Experience}
+
+\datedsubsection{\textbf{Personal Project} - \href{https://github.com/rami3l/pacaptr}{\textit{Pacaptr}: Multiplatform Package Managing Tool}}{Since 2020}
+Wrapper of various package managers in the syntax of \textit{pacman} in \textit{Arch Linux} \hfill \textit{Rust, Clap}
+\begin{itemize}
+  \item Demand analysis, project implementation \& continuous maintenance
+  \item Use of \textit{GitHub Actions} for regression detection and precompiled binary distribution
+  \item Contribution to upstream library (\textit{Clap}, a \textit{Rust} library for CLI argument parsing)
+\end{itemize}
+
+\datedsubsection{\textbf{DianGarden} - {Writing of IT Pedagogical Materials \& Development}}{2021}
+\textbf{4-week internship} improving the contents of the startup's development training \hfill \textit{Python, SQLite, PyQt5}
+\begin{itemize}
+  \item Creation of educational materials on \textit{Git} \& software testing
+  \item Overall quality improvement of the demo \textit{Python} application
+\end{itemize}
+
+\datedsubsection{\textbf{BUAA} - \href{https://github.com/BUAA-SE-Compiling/rurikawa}{\textit{Rurikawa}: Judge System for Computer Science Lab Experiments}}{2020 - 2021}
+\textbf{Team project} working on an \textit{Online Judge} system automating evaluation of lab assignments \hfill \textit{Rust, Docker}
+\begin{itemize}
+  \item Design \& implementation of the code execution subsystem
+  \item Contribution to upstream library (\textit{Bollard}, a \textit{Rust} binding of \textit{Docker Engine API})
+\end{itemize}
+
+\datedsubsection{\textbf{Personal Project} - \href{https://github.com/rami3l/yascm}{\textit{Yascm}: Simple \textit{Scheme} Interpreter}}{2020}
+Solution to an exercise in the book \textit{Structure and Interpretation of Computer Programs} \hfill \textit{Haskell, Scala}
+\begin{itemize}
+  \item Study of functional programming \& programming language theory
+  \item Implementation based on the book's metacircular interpreter, in \textit{Haskell} \& \textit{Scala}
+\end{itemize}
+
+\datedsubsection{\textbf{BUAA} - \href{https://github.com/rami3l/CircuitSim}{\textit{CircuitSim}: Electric Circuit Simulator}}{2019}
+Development of a simplified version of \textit{SPICE} using object-oriented methods \hfill \textit{C\#, Math.NET}
+\begin{itemize}
+  \item Git-based collaboration \& team task management
+\end{itemize}
+
+% % Reference Test
+% %\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+% %An xxx optimized for xxx\cite{verma2015large}
+% %\begin{itemize}
+% %  \item main contribution
+% %\end{itemize}
+
+\section{Relevant Skills}
+
+\begin{tabular}{r l r l}
+  \textbf{English}           & Fluent - CET 6                                       &
+  \textbf{Operating Systems} & macOS, Linux, Windows                                  \\
+  \textbf{Français}          & Fluent - DELF B2                                     &
+  \textbf{Programming}       & \textbf{Rust}, Go, Python, Java, Haskell, Scala, C\#   \\
+  \textbf{Mandarin}          & Native                                               &
+  \textbf{Others}            & Docker, PostgreSQL, Git, VSCode, \LaTeX
+\end{tabular}
+
+% % \section{\faHeartO\ Honors and Awards}
+% % \datedline{\textit{\nth{1} Prize}, Award on xxx }{Jun. 2013}
+% % \datedline{Other awards}{2015}
+
+\section{Interests and Activities}
+
+\begin{tabular*}{\textwidth}{r l @{\extracolsep{\fill}} r}
+  \textbf{Volunteering Work} & Vélocampus - Bicycle Repairing \\
+  % \textbf{Activité Sociale} & Étude des Systèmes de Métro - Chengdu \& Chongqing & Août 2018 \\
+  \textbf{Hobbies \& Interests} & Photography \& Design
+\end{tabular*}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
